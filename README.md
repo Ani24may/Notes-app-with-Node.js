@@ -1,14 +1,14 @@
 A simple notes application which uses command line interface to create ,remove, read and list notes.
-This application is wriiten in Node.js.
+This application is written in Node.js.
 
 
 To use this application:
 1) clone the repo.
-2) navigate to the directiory
+2) navigate to the directory
 3) open the terminal and type "npm install"
 
 To add a note:
--> node app.js add --title="Birthday list" --body="sam , henry, maulin" click enter
+-> node app.js add --title="Birthday list" --body="sam=12/05/1994 , henry=13/07/1996, maulin=14/09/1990" click enter
 ->this will be added to "notes.json" file which will serve as a db for storing all the notes.
 
 To remove a note:
