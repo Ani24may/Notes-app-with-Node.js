@@ -21,3 +21,21 @@ pipeline {
           echo "Hello"
                }
             }
+       stage('Four') {
+        parallel {
+          stage('Unit test_1') {
+            steps {
+              echo "running unit test 1"
+                  }
+                            }
+           stage('Unit test_2') {
+            steps {
+              echo "Running unit test 2"
+              }
+                          }
+                  }
+                }
+              }
+            }
+          }
+            
